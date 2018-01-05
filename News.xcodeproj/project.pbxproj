@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C4641A1E0EDBE8783E2A88 /* libPods-News.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4744F419595A9252B4DE3411 /* libPods-News.a */; };
 		F3A273511FFF199900DA82A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273501FFF199900DA82A8 /* AppDelegate.m */; };
 		F3A273541FFF199900DA82A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273531FFF199900DA82A8 /* ViewController.m */; };
 		F3A273571FFF199900DA82A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A273551FFF199900DA82A8 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		F3A2735F1FFF199900DA82A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2735E1FFF199900DA82A8 /* main.m */; };
 		F3A273691FFF199900DA82A8 /* NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273681FFF199900DA82A8 /* NewsTests.m */; };
 		F3A273741FFF199900DA82A8 /* NewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273731FFF199900DA82A8 /* NewsUITests.m */; };
+		F3A273831FFF248500DA82A8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F3A273821FFF248500DA82A8 /* Podfile */; };
+		F3A273871FFF54A000DA82A8 /* RecommendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273861FFF54A000DA82A8 /* RecommendTableViewController.m */; };
+		F3A2738A1FFF54D300DA82A8 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273891FFF54D300DA82A8 /* VideoTableViewController.m */; };
+		F3A2738D1FFF54F400DA82A8 /* HotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2738C1FFF54F400DA82A8 /* HotTableViewController.m */; };
+		F3A273901FFF552D00DA82A8 /* RecreationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2738F1FFF552D00DA82A8 /* RecreationTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		395342342AA23E186B1847CF /* Pods-News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-News/Pods-News.debug.xcconfig"; sourceTree = "<group>"; };
+		4744F419595A9252B4DE3411 /* libPods-News.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-News.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A8202A58E5A54C17209C56 /* Pods-News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.release.xcconfig"; path = "Pods/Target Support Files/Pods-News/Pods-News.release.xcconfig"; sourceTree = "<group>"; };
 		F3A2734C1FFF199900DA82A8 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A2734F1FFF199900DA82A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3A273501FFF199900DA82A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		F3A2736F1FFF199900DA82A8 /* NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A273731FFF199900DA82A8 /* NewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsUITests.m; sourceTree = "<group>"; };
 		F3A273751FFF199900DA82A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A273821FFF248500DA82A8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3A273851FFF54A000DA82A8 /* RecommendTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendTableViewController.h; sourceTree = "<group>"; };
+		F3A273861FFF54A000DA82A8 /* RecommendTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendTableViewController.m; sourceTree = "<group>"; };
+		F3A273881FFF54D300DA82A8 /* VideoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		F3A273891FFF54D300DA82A8 /* VideoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		F3A2738B1FFF54F400DA82A8 /* HotTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotTableViewController.h; sourceTree = "<group>"; };
+		F3A2738C1FFF54F400DA82A8 /* HotTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotTableViewController.m; sourceTree = "<group>"; };
+		F3A2738E1FFF552D00DA82A8 /* RecreationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecreationTableViewController.h; sourceTree = "<group>"; };
+		F3A2738F1FFF552D00DA82A8 /* RecreationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecreationTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C4641A1E0EDBE8783E2A88 /* libPods-News.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84CBF6F9DAD47DE29CE20159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4744F419595A9252B4DE3411 /* libPods-News.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3A273431FFF199900DA82A8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,9 @@
 				F3A273671FFF199900DA82A8 /* NewsTests */,
 				F3A273721FFF199900DA82A8 /* NewsUITests */,
 				F3A2734D1FFF199900DA82A8 /* Products */,
+				F3A273821FFF248500DA82A8 /* Podfile */,
+				F54F0F994243767F192A85B0 /* Pods */,
+				84CBF6F9DAD47DE29CE20159 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		F3A2734E1FFF199900DA82A8 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				F3A273841FFF544500DA82A8 /* ChildControllers */,
 				F3A2734F1FFF199900DA82A8 /* AppDelegate.h */,
 				F3A273501FFF199900DA82A8 /* AppDelegate.m */,
 				F3A273521FFF199900DA82A8 /* ViewController.h */,
@@ -132,6 +163,30 @@
 			path = NewsUITests;
 			sourceTree = "<group>";
 		};
+		F3A273841FFF544500DA82A8 /* ChildControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3A273851FFF54A000DA82A8 /* RecommendTableViewController.h */,
+				F3A273861FFF54A000DA82A8 /* RecommendTableViewController.m */,
+				F3A273881FFF54D300DA82A8 /* VideoTableViewController.h */,
+				F3A273891FFF54D300DA82A8 /* VideoTableViewController.m */,
+				F3A2738B1FFF54F400DA82A8 /* HotTableViewController.h */,
+				F3A2738C1FFF54F400DA82A8 /* HotTableViewController.m */,
+				F3A2738E1FFF552D00DA82A8 /* RecreationTableViewController.h */,
+				F3A2738F1FFF552D00DA82A8 /* RecreationTableViewController.m */,
+			);
+			path = ChildControllers;
+			sourceTree = "<group>";
+		};
+		F54F0F994243767F192A85B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395342342AA23E186B1847CF /* Pods-News.debug.xcconfig */,
+				C4A8202A58E5A54C17209C56 /* Pods-News.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A273781FFF199900DA82A8 /* Build configuration list for PBXNativeTarget "News" */;
 			buildPhases = (
+				FB9A4B34456C6D194DD9C8E3 /* [CP] Check Pods Manifest.lock */,
 				F3A273481FFF199900DA82A8 /* Sources */,
 				F3A273491FFF199900DA82A8 /* Frameworks */,
 				F3A2734A1FFF199900DA82A8 /* Resources */,
+				5D80A7CB727C03D29C0E343F /* [CP] Embed Pods Frameworks */,
+				CF4F9376F68A537CE5C078C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +298,7 @@
 			files = (
 				F3A2735C1FFF199900DA82A8 /* LaunchScreen.storyboard in Resources */,
 				F3A273591FFF199900DA82A8 /* Assets.xcassets in Resources */,
+				F3A273831FFF248500DA82A8 /* Podfile in Resources */,
 				F3A273571FFF199900DA82A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +319,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D80A7CB727C03D29C0E343F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-News/Pods-News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4F9376F68A537CE5C078C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-News/Pods-News-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9A4B34456C6D194DD9C8E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3A273481FFF199900DA82A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3A273541FFF199900DA82A8 /* ViewController.m in Sources */,
+				F3A2738A1FFF54D300DA82A8 /* VideoTableViewController.m in Sources */,
 				F3A2735F1FFF199900DA82A8 /* main.m in Sources */,
+				F3A273901FFF552D00DA82A8 /* RecreationTableViewController.m in Sources */,
+				F3A273871FFF54A000DA82A8 /* RecommendTableViewController.m in Sources */,
 				F3A273511FFF199900DA82A8 /* AppDelegate.m in Sources */,
+				F3A2738D1FFF54F400DA82A8 /* HotTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +539,13 @@
 		};
 		F3A273791FFF199900DA82A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395342342AA23E186B1847CF /* Pods-News.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2CUZHKARW;
 				INFOPLIST_FILE = News/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +555,13 @@
 		};
 		F3A2737A1FFF199900DA82A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A8202A58E5A54C17209C56 /* Pods-News.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2CUZHKARW;
 				INFOPLIST_FILE = News/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
