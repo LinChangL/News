@@ -21,6 +21,7 @@
 		F3A2738A1FFF54D300DA82A8 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A273891FFF54D300DA82A8 /* VideoTableViewController.m */; };
 		F3A2738D1FFF54F400DA82A8 /* HotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2738C1FFF54F400DA82A8 /* HotTableViewController.m */; };
 		F3A273901FFF552D00DA82A8 /* RecreationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2738F1FFF552D00DA82A8 /* RecreationTableViewController.m */; };
+		F3C57391200317C800D7D03D /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C57390200317C800D7D03D /* TitleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		F3A2738C1FFF54F400DA82A8 /* HotTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotTableViewController.m; sourceTree = "<group>"; };
 		F3A2738E1FFF552D00DA82A8 /* RecreationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecreationTableViewController.h; sourceTree = "<group>"; };
 		F3A2738F1FFF552D00DA82A8 /* RecreationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecreationTableViewController.m; sourceTree = "<group>"; };
+		F3C5738F200317C800D7D03D /* TitleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		F3C57390200317C800D7D03D /* TitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				F3A2735A1FFF199900DA82A8 /* LaunchScreen.storyboard */,
 				F3A2735D1FFF199900DA82A8 /* Info.plist */,
 				F3A2735E1FFF199900DA82A8 /* main.m */,
+				F3C5738F200317C800D7D03D /* TitleButton.h */,
+				F3C57390200317C800D7D03D /* TitleButton.m */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				F3A273901FFF552D00DA82A8 /* RecreationTableViewController.m in Sources */,
 				F3A273871FFF54A000DA82A8 /* RecommendTableViewController.m in Sources */,
 				F3A273511FFF199900DA82A8 /* AppDelegate.m in Sources */,
+				F3C57391200317C800D7D03D /* TitleButton.m in Sources */,
 				F3A2738D1FFF54F400DA82A8 /* HotTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
